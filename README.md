@@ -12,11 +12,23 @@ Este repositório contém os cadernos interativos (*Jupyter Notebooks*) e o mód
 - `Weak_Field_Aplication_paper.ipynb`: Inversão vetorial completa do mapa espectropolarimétrico para geração dos magnetogramas ($B_{LOS}$, $B_T$ e $\chi$).
 - `Eventos/`: Diretório base configurado para leitura dos arquivos originais.
 - `Figuras/`: Diretório de saída configurado para o salvamento automático dos gráficos gerados.
+- 
+## Como obter e organizar os Dados Observacionais
 
-## Como obter os Dados Observacionais
-O ficheiro original `.fits` está disponível publicamente para download:
+Para que os códigos funcionem corretamente, a estrutura de pastas deve respeitar o diretório de entrada (`Eventos/`). Siga os passos abaixo:
 
-[**Baixar combined_20100704_145053.fits (Google Drive)**](https://drive.google.com/drive/folders/1OVz918tNqzz5HDtveGqq-psy41bgJx9D?usp=sharing)
+1. **Baixe o arquivo FITS:** [**Download: combined_20100704_145053.fits (Google Drive)**](https://drive.google.com/drive/folders/1OVz918tNqzz5HDtveGqq-psy41bgJx9D?usp=sharing)
+
+2. **Organização Obrigatória:** Após baixar o arquivo, mova-o para dentro da pasta `Eventos/` na raiz deste repositório. O seu diretório deve estar organizado exatamente desta forma:
+
+```text
+WFA-Espectropolarimetria-Solar/
+├── Eventos/
+│   └── combined_20100704_145053.fits  <-- O arquivo DEVE estar aqui
+├── Figuras/
+├── solar_utils.py
+├── Data_PREP_paper.ipynb
+└── Weak_Field_Aplication_paper.ipynb
 
 ## Dependências
 Para executar os códigos, certifique-se de instalar as seguintes bibliotecas:
