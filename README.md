@@ -13,8 +13,6 @@ Este repositório contém os cadernos interativos (*Jupyter Notebooks*) e o mód
 - `Eventos/`: Diretório base configurado para leitura dos arquivos originais.
 - `Figuras/`: Diretório de saída configurado para o salvamento automático dos gráficos gerados.
 
-- 
-- 
 ## Como obter e organizar os Dados Observacionais
 
 Para que os códigos funcionem corretamente, a estrutura de pastas deve respeitar o diretório de entrada (`Eventos/`). Siga os passos abaixo:
